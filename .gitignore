@@ -1,0 +1,25 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets / environment files
+.env
+*.env
+api.env
+
+# Streamlit cache
+.streamlit/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+'@ | Out-File -Encoding utf8 .gitignore
